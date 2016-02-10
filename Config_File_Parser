@@ -3,8 +3,14 @@
 class Config_File_Parser
 {
 
+	/**
+	  * @var string|null   Should contain a file name and prefixed by its directory (if necessary)
+	  */
 	private $fileName 	= null;
 
+	/**
+	  * @var string|null   Should contain the config name that the user will like to retrieve
+	  */
 	private $configName = null;
 
 	/**
