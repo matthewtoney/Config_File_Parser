@@ -1,7 +1,7 @@
 # Config_File_Parser
 
 In order to read from the config file you will need to use the following command via command line:
-   - php parser.php -f "{directory_file_name}" -c "{config_name}"
+   - php Config_File_Parser.php -f "{directory_file_name}" -c "{config_name}"
    
 Some considerations:
    - I did not take into consideration comments that are inline with a config setting
